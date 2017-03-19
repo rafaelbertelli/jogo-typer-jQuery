@@ -1,0 +1,84 @@
+body {
+	overflow: scroll;
+}
+
+.campo-digitacao {
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+}
+
+.frase {
+    font-size: 20px;
+    text-align: left;
+}
+
+.campo-desativado {
+    background-color: lightgray;
+}
+
+.icones {
+    vertical-align: middle;
+}
+
+.borda-verde {
+    border: 3px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+}
+
+.placar {
+	display: none;
+}
+
+#erro {
+    background-color: rgba(250,0,0,0.8);
+    color: rgba(250,250,250,1);
+    text-shadow: 1px 1px 1px darkred;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -40px;
+}
+
+#gravado {
+    background-color: rgba(50,250,100,0.5);
+    color: rgba(0,0,0,0);
+    text-shadow: 1px 1px 1px darkgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -40px;
+}
+
+
+#spinner {
+    display: none;
+}
+
+#input-id{
+    width: 50px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#botao-sync{
+    float: right;
+}
+
+.jogadores {
+    vertical-align: middle;
+}
+
+.jogadores, .select-jogadores {
+    display: inline-block;
+    min-width: 10rem;
+}
